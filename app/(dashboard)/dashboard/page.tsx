@@ -236,7 +236,7 @@ export default function DashboardPage() {
       </div>
       
       {/* Charts */}
-      <div className="grid gap-6 md:grid-cols-2">
+      {/* <div className="grid gap-6 md:grid-cols-2">
         <Card className="p-4 hover:shadow-lg transition-all duration-300">
           <h3 className="text-xl font-bold mb-4">Events by Weight Category</h3>
           <div className="h-80">
@@ -302,10 +302,10 @@ export default function DashboardPage() {
             )}
           </div>
         </Card>
-      </div>
+      </div> */}
       
       {/* Match Trend Chart */}
-      <Card className="p-4 hover:shadow-lg transition-all duration-300">
+      {/* <Card className="p-4 hover:shadow-lg transition-all duration-300">
         <h3 className="text-xl font-bold mb-4">Match Activity Trend</h3>
         <div className="h-64">
           <ResponsiveContainer width="100%" height="100%">
@@ -339,7 +339,7 @@ export default function DashboardPage() {
             </ComposedChart>
           </ResponsiveContainer>
         </div>
-      </Card>
+      </Card> */}
     </div>
   );
 }
